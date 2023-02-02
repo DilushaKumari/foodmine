@@ -11,4 +11,16 @@
     2.  Add html
     3.  Add CSS
     
+5.  List Foods
+    1.  Crete Food models
+    2.  Create data.ts
+        1.  Add Sample foods
+    
+    3.  Add images to asset folder
+    4.  Create food service
+    5.  Create Home component
+        1.  Add ts
+        2.  Add css
+        3.  Add html 
+    
     
