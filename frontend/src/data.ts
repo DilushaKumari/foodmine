@@ -4,7 +4,7 @@ export const sample_foods : Food []= [
   {
     id:'1',
     name:'Vegetable Pizza',
-    price :150,
+    price :750,
     cookTime :'40-50',
     favorite :true,
     origins :['Italy'],
