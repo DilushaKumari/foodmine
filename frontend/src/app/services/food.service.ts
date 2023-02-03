@@ -11,6 +11,5 @@ export class FoodService {
 
   getAll():Food[]{
     return sample_foods;
-
   }
 }
