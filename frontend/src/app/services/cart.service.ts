@@ -30,7 +30,7 @@ export class CartService {
   removeFromCartItem(foodId: string): void {
     this.cart.items = this.cart.items.filter(item => item.food.id != foodId);
     this.setCartToLocalStorage();
-  }
+    }
 
   changeQuantity(foodId: string, quantity: number) {
     let cartItem = this.cart.items.find(item => item.food.id === foodId);
