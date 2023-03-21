@@ -41,7 +41,11 @@ testem.log
 .DS_Store
 Thumbs.db
 
-**/*.*.json
-**/*.json
-**/*.*.json
+#**/*.*.json
+#**/*.json
+angular.json
+tsconfig.app.json
+tsconfig.spec.json
+tsconfig.app.json
+
 **/.vscode/*.json
