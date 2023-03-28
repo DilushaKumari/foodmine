@@ -140,5 +140,14 @@
     5.  Connect to MongoDB Atlas
     6.  Use MongoDB instead of data.ts in APIs
     
+15. Register User
+    1.  Add register api
+    2.  Add register service method
+    3.  Add register link
+    4.  Add register Component
+    
+
+    
+    
     
 
