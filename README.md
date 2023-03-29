@@ -146,6 +146,13 @@
     3.  Add register link
     4.  Add register Component
     
+16. Loading!
+    1.  Add Image
+    2.  Add component
+    3.  Add Service
+    4.  Add Interceptor
+    
+    
 
     
     
