@@ -43,7 +43,10 @@ export class CartService {
 
   }
 
+getCart():Cart{
+    return this.cartSubject.value;
 
+}
   clearCart() {
     this.cart = new Cart();
     this.setCartToLocalStorage();
