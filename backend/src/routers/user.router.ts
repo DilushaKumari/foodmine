@@ -83,9 +83,10 @@ router.post('/register',asyncHandler(
 
 const generateTokenResponse = (user :any)=>{
      const token = jwt.sign({
+            id: user.id,
             email:user.email,
             isAdmin :user.isAdmin
-        },"SomeRandomText",
+        },process.env.JWT_SECRET!,
         {expiresIn :"10d"});
 
     return token;
@@ -94,7 +95,6 @@ const generateTokenResponse = (user :any)=>{
 async function checkPassword(plaintextPassword, hash) :Promise<Boolean> {
     try {
         const result = await bcrypt.compare(plaintextPassword, hash);
-        console.log("result>>"+result)
         return result;
     } catch (error) {
         return false;
