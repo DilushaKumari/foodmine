@@ -28,6 +28,7 @@ import { OrderItemListComponent } from './components/partials/order-item-list/or
 import { MapComponent } from './components/partials/map/map.component';
 import {AuthGuard} from "./auth/guards/auth.guard";
 import {AuthInterceptor} from "./auth/auth.interceptor";
+import { PaymentPageComponent } from './components/pages/payment-page/payment-page.component';
 
 
 @NgModule({
@@ -51,6 +52,7 @@ import {AuthInterceptor} from "./auth/auth.interceptor";
     CheckoutPageComponent,
     OrderItemListComponent,
     MapComponent,
+    PaymentPageComponent,
   ],
   imports: [
     BrowserModule,

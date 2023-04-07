@@ -183,6 +183,25 @@
             1.  Add order crete method  
         7.  Add Auth interceptor
     
+18. Payment Page
+    1.  Generate Component
+    2.  Add 'getOrderForCurrentUser' api
+    3.  Add Order service method
+    4.  connect component to service
+    5.  Make the map component readonly
+    
+19. Adding Paypal
+    1.  Generate component
+        1.  Add to payment page
+    2.  Get Paypal client id
+    3.  Add paypal js to index.html
+    4.  Set up paypal button
+    5.  Add Pay Api to order router
+    6.  Get Paypal sandbox account
+    
+    
+    
+    
     
 
     
